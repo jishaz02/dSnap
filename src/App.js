@@ -1,9 +1,10 @@
+import CameraScreen from "./screens/CameraScreen";
 import LoginScreen from "./screens/LoginScreen";
 
 function App() {
   return (
      <div>
-    <LoginScreen />
+    <CameraScreen />
     </div>
     
   );
