@@ -1,3 +1,4 @@
+import CameraScreen from "./screens/CameraScreen";
 import LoginScreen from "./screens/LoginScreen";
 import MainScreen from "./screens/MainScreen";
 
