@@ -1,11 +1,11 @@
 import LoginScreen from "./screens/LoginScreen";
+import MainScreen from "./screens/MainScreen";
 
 function App() {
   return (
-     <div>
-    <LoginScreen />
+    <div>
+      <MainScreen />
     </div>
-    
   );
 }
 
