@@ -1,12 +1,12 @@
 import CameraScreen from "./screens/CameraScreen";
 import LoginScreen from "./screens/LoginScreen";
+import MainScreen from "./screens/MainScreen";
 
 function App() {
   return (
-     <div>
-    <CameraScreen />
+    <div>
+      <MainScreen />
     </div>
-    
   );
 }
 
