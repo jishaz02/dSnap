@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import BottomBar from "../components/BottomBar";
+import CameraScreen from "./CameraScreen";
 import HomeScreen from "./HomeScreen";
 import ProfileScreen from "./ProfileScreen";
 
@@ -8,7 +9,7 @@ const MainScreen = () => {
   return (
     <div>
       {selectedTab === "camera" ? (
-        <HomeScreen />
+        <CameraScreen />
       ) : selectedTab === "home" ? (
         <HomeScreen />
       ) : (
