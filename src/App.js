@@ -5,11 +5,12 @@ import EditBirthdayScreen from "./screens/EditBirthdayScreen";
 import EditEmailScreen from "./screens/EditEmailScreen";
 import LoginScreen from "./screens/LoginScreen";
 import MainScreen from "./screens/MainScreen";
+import OnBoardingScreen from "./screens/OnBoardingScreen";
 
 function App() {
   return (
     <div>
-      <EditEmailScreen />
+      <OnBoardingScreen />
     </div>
   );
 }
