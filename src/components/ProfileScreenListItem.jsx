@@ -1,9 +1,14 @@
 import React from "react";
 
-const ProfileScreenListItem = ({ title, value }) => {
+const ProfileScreenListItem = ({ title, value, path }) => {
   return (
     <div>
-      <div className="w-screen h-14 border-b flex items-center justify-between p-4 cursor-pointer">
+      <div
+        className="w-screen h-14 border-b flex items-center justify-between p-4 cursor-pointer"
+        onClick={() => {
+          window.location.href = `${path}`;
+        }}
+      >
         <p>{title}</p>
         <div className="flex items-center">
           <p>{value}</p>
